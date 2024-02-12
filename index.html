@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather APP</title>
+     <link rel="icon"  href="./photo-1569428034239-f9565e32e224.avif">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="Big">
+        <div class="small">
+            <div class="heading">
+                <h1>WEATHER APP</h1>
+            </div>
+
+
+            <div class="tab-bar">
+                <div class="tab" tab_1>Your Weather</div>
+                <div class="tab" tab_2>Search Location</div>
+            </div>
+
+            <div class="grant-access">
+                <img src="./location.png" width="50px" height="50px">
+                <p>Grant Location Access</p>
+                <p>Allow access to get weather info </p>
+                <button type="submit">
+                    Grant Access
+                </button>
+            </div>
+            <div class="loader">
+                <img src="./loading.gif" width="110 rem" height="110 rem">
+            </div>
+            <div class="search-form">
+                <input type="text" placeholder="Search for city..." search-input>
+                <button class="search_button" type="submit"><img src="./search.png" width="20px" height="20px" ></button>
+            </div>
+            <div class="search_error">
+                <img src="./not-found.png" width="150 rem" height="150 rem">
+                <p>NOT Found</p>
+            </div>
+            <div class="main-data-box">
+                <div class="city_info">
+                    <span class="city_name"></span>
+                    <img src="" class="c-icon" width="50px" height="50px">
+                </div>
+               
+
+                <div class="weather_info">
+                    <p weather-desc></p>
+                    <img src="" weather-img>
+                    <p  temperature class="yyyy"></p>
+                </div>
+    
+                <div class="tiles">
+                    <div class="wind tile">
+                        <img src="./wind.png" width="60 rem" height="60 rem">
+                        <p>WINDSPEED</p>
+                        <p wind-data></p>
+                    </div>
+
+
+                    <div class="humidity tile">
+                        <img src="./humidity.png"  width="60 rem" height="60 rem">
+                        <p>HUMIDITY</p>
+                        <p humidity-data></p>
+                    </div>
+
+
+                    <div class="clouds tile">
+                        <img src="./cloud.png"   width="60 rem" height="60 rem">
+                        <p>CLOUDS</p>
+                        <p clouds-data></p>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+           
+
+
+        </div>
+    </div>
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>
