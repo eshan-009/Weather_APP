@@ -1,6 +1,6 @@
 const city_name = document.querySelector(".city_name");
 const access_grant = document.querySelector('.grant-access')
-const API_key = "da1eef1a53b64ab2210fccbeb4a11a92";
+const API_key = ; // Get it from open weather
 const country_icon = document.querySelector(".c-icon");
 const w_desc = document.querySelector('[weather-desc]');
 const w_img = document.querySelector('[weather-img]');
